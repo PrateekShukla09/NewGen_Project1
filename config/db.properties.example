@@ -1,0 +1,8 @@
+# =====================================================================
+# Database Configuration Template for Vaccination Drive Scheduler
+# Copy this file to config/db.properties and set your local credentials.
+# =====================================================================
+
+db.url=jdbc:mysql://localhost:3306/vaccination_scheduler?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=YOUR_MYSQL_PASSWORD_HERE

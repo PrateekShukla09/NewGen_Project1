@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Main (Vaccination Scheduler)",
+            "request": "launch",
+            "mainClass": "com.vaccination.main.Main",
+            "projectName": "VaccinationDriveScheduler",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run ConnectionTest",
+            "request": "launch",
+            "mainClass": "com.vaccination.main.ConnectionTest",
+            "projectName": "VaccinationDriveScheduler",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run ConcurrencyBookingTest",
+            "request": "launch",
+            "mainClass": "com.vaccination.main.ConcurrencyBookingTest",
+            "projectName": "VaccinationDriveScheduler",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Phase4Test",
+            "request": "launch",
+            "mainClass": "com.vaccination.main.Phase4Test",
+            "projectName": "VaccinationDriveScheduler",
+            "console": "integratedTerminal"
+        }
+    ]
+}
